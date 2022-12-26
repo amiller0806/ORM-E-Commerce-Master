@@ -29,15 +29,18 @@
   ### Installation
 
   In the terminal: 
- 1. Ensure you are in the correct folder, “ORM-E-Commerce” then type “cd develop in the terminal. After changing to the main directory, type “npm i” or “npm install” in the terminal.
+ 1. Ensure you are in the correct folder, “ORM-E-Commerce” 
+ 2. Type “npm i” or “npm install” in the terminal.
   ### Contribution
   Ariel Miller 
 
   ### Usage
 1. Ensure you are in the correct folder
-1. Install by typing “cd Develop in the terminal then “npm i” or “npm install”
+1. Install by typing “npm i” or “npm install”
 
-2. Making sure you’re still in the develop directory, type “npm run seed" 
+2. Run mysql with "mysql -u root -p", enter password
+3. Type "source db/schema.sql"
+4. Type “npm run seed" 
 
 3. Open Insomnia and run the following requests for Categories, Tags, and Products:
 - DELETE Request
