@@ -57,7 +57,7 @@ router.get('/:id', (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
-  /* req.body should look like this...
+  /* sample req.body (JSON Body) should look like this...
     {
       product_name: "guitar",
       price: 200.00,
@@ -107,7 +107,7 @@ router.put('/:id', (req, res) => {
         const productTagIds = productTags.map(({
           tag_id
         }) => tag_id);
-        // create filtered list of new tag_ids
+        // create a filtered list of new tag_ids
         const newProductTags = req.body.tagIds
           .filter((tag_id) => !productTagIds.includes(tag_id))
           .map((tag_id) => {

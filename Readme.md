@@ -46,75 +46,18 @@
 
 3. Open Insomnia and run the following requests for Categories, Tags, and Products:
 
-- POST Requests
-a. a.	POST: Create New Product:  http://localhost:3001/api/products/
-JSON Body example: {
-      "product_name": "Guitar",
-      "price": 1,000.00,
-      "stock": 3,
-      "tagIds": [1, 2, 3, 4]
-    }
-b. Create New Tag
-
-http://localhost:3001/api/tags
-JSON Body example:
-
-{
-	"tag_name": "skincare"
-}
-
-c. Create New Category
- http://localhost:3001/api/categories 
-JSON Body example:
-
-{
-	"category_name": "cosmetics"
-}
-
-- GET Requests
-a.	GET All Products: 
-Route: http://localhost:3001/api/products 
-
-b.	GET One Product:
-Syntax: http://localhost:3001/api/products/{id} 
-Example Route: http://localhost:3001/api/products/2 
-c.	GET All Categories:
-Route:
-http://localhost:3001/api/categories 
-
- 
-
-e.	GET All Tags:
-Example Route: http://localhost:3001/api/tags/    
-
-f.	GET One Tag:
-
-Syntax: http://localhost:3001/api/tags/{tag_id}
-Example Route: http://localhost:3001/api/tags/1 
-
-- PUT REQUESTS
-
-a.	PUT: Update Product
-http://localhost:3001/api/products/{product_id}
-b.	PUT: Update Category
-http://localhost:3001/api/categories/{category_id}
-
-c.	PUT: Update Tag 
-
-http://localhost:3001/api/tags/{tag_id}
+Example of order of requests for products, same to be repeated for Categories and  Tags:
 
 
-- DELETE REQUESTS
+A. GET Requests for Products 
+a. GET: All Products 
+GET:  One Product
+B. PUT:  Update Product
+C. POST : Create New Product
+D. DELETE: Delete Product 
 
+Repeat the above steps for Categories and Tags 
 
-a.	DELETE: Delete Product
-http://localhost:3001/api/products/{product_id}
-
-b.	DELETE: Delete Category
-http://localhost:3001/api/categories/{category_id}
-
-c.	DELETE: Delete Tag 
-http://localhost:3001/api/tags/{tag_id}
 
 
 
