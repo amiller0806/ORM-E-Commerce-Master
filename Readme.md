@@ -17,6 +17,9 @@
   * [Github](#github)
 
   * [Email](#email)
+   * [Application Video](#Video-Link)
+
+  
 
   ### Description 
  An application that uses Object Relational Mapping and employs Back end for an e-commerce site. This application takes a working Express.js API and configures it to use Sequelize to interact with a MySQL database.
@@ -44,27 +47,29 @@
 4. Type “npm run seed" 
 5. Type "npm start"
 
-3. Open Insomnia and run the following requests for Categories, Tags, and Products:
+3. Open Insomnia and run the following requests for Categories, Tags, and Products: GET, PUT, POST, and DELETE
 
+<br>
 Example of order of requests for products, same to be repeated for Categories and  Tags:
 
 
 A. GET Requests for Products 
+<br>
 a. GET: All Products 
-GET:  One Product
+<br>
+b. GET:  One Product
+<br>
 B. PUT:  Update Product
+<br>
 C. POST : Create New Product
+<br>
 D. DELETE: Delete Product 
 
 Repeat the above steps for Categories and Tags 
 
-
-
-
-
-
-## Link to Video 
-TODO: Enter Link to Video
+### Video-Link
+Video of user going through the application in terminal and Insomnia:
+https://drive.google.com/file/d/1Xss4LJd9OOEwxUQnkr5L9g8iyyCS1w1U/view 
   ### Github
 [Github Profile](https://github.com/amiller0806)
 
