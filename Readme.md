@@ -30,7 +30,8 @@
 
   In the terminal: 
  1. Ensure you are in the correct folder, “ORM-E-Commerce” 
- 2. Type “npm i” or “npm install” in the terminal.
+ 2. Type “npm i” or “npm install” in the terminal3
+ 
   ### Contribution
   Ariel Miller 
 

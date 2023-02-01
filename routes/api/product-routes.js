@@ -95,7 +95,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id,
     },
   })
-    .then(product => {
+    .then(dbProductData => {
       // find all associated tags from ProductTag
       if (req.body.tagIds && req.body.tagIds.length) {
         const productTags = ProductTag.findAll({
@@ -136,7 +136,7 @@ router.put('/:id', (req, res) => {
         ]);
       
       }
-      return res.json(product);
+      return res.json(dbProductData);
     })
     .catch(err => {
       // console.log(err);
