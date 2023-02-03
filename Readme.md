@@ -70,7 +70,6 @@ Repeat the above steps for Categories and Tags
 ### Video-Link
 Video of user going through the application in terminal and Insomnia:
 https://drive.google.com/file/d/1Xss4LJd9OOEwxUQnkr5L9g8iyyCS1w1U/view 
-[ORM E Commerce Master Tutorial .webm](https://user-images.githubusercontent.com/109996105/216721637-e42b35b2-bd7f-4628-8933-a6f0006f3424.webm)
 
 
   ### Github
